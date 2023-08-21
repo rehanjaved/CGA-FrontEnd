@@ -1,7 +1,7 @@
 // Top slider
 var i = 0;
     var images = [];
-    var slideTime = 4500; // 4.5 seconds
+    var slideTime = 3500; // 4.5 seconds
 
     // Update the image file path
     images[0] = 'Images/Slider-img.jpg'; // Assuming the Images folder is in the root directory
