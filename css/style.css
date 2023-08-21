@@ -33,11 +33,6 @@ html, * {
     margin: 0 auto;
 }
 
-.container-full {
-    width: 1513px;
-    margin: 0 auto;
-}
-
 .slider-top {
     float: left;
     width: 100%;
@@ -46,7 +41,7 @@ html, * {
     background-size: cover;
     height: 820px;
     background-position: center center;
-    border-bottom: 2px solid #869494;
+    border-bottom: 3px solid #869494;
     transition: background-image 1s ease-in-out;
     position: relative;
 }
@@ -184,24 +179,24 @@ section {
 
 section.services {
     background: #24313C;
-    padding: 90px 0;
+    padding: 91px 0 99px 0;
     overflow: hidden;
 }
 
 .service-text {
     float: left;
     width: 100%;
-    padding-bottom: 60px;
+    padding-bottom: 62px;
 }
 
 .service-text p {
     color: #FFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 35px;
     /* 145.833% */
+    -webkit-text-stroke: 0.4px black;
 }
 
 .services-slider {
@@ -211,9 +206,9 @@ section.services {
 
 .service-box a {
     float: left;
-    width: 338px;
+    width: 326px;
     background: #2F3F4D;
-    padding: 33px;
+    padding: 35px;
     text-decoration: none;
     margin-right: 29px;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
@@ -262,7 +257,7 @@ section.services {
 .ser-txt p {
 color: #FFF;
     text-align: center;
-    font-size: 19px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 33px;
@@ -277,13 +272,12 @@ color: #FFF;
 
 .swiper .swiper-slide {
     float: left;
-    width: 33.33% !important;
     margin-right: 0 !important;
 }
 
 .services .swiper-wrapper {
     display: flex;
-    padding-bottom: 80px;
+    padding-bottom: 82px;
 }
 
 .swiper-wrapper {
@@ -330,7 +324,7 @@ color: #FFF;
 
 section.f-services {
     background: #fff;
-    padding: 88px 0;
+    padding: 88px 0 104px;
     overflow: hidden;
 }
 
@@ -356,6 +350,7 @@ section.f-services {
 .right-servce img {
     float: right;
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 0 5px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.9;
 }
 
 .left-servce h2 {
@@ -398,7 +393,7 @@ section.f-services {
     color: #24313C;
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: normal;
     letter-spacing: 1.89px;
     text-decoration: none;
@@ -552,7 +547,7 @@ footer .footer-links a:hover {
 .bottom-footer {
     float: left;
     width: 100%;
-    padding: 100px 0 85px 0;
+    padding: 100px 0 80px 0;
 }
 
  .owl-carousel {
@@ -564,6 +559,7 @@ footer .footer-links a:hover {
  .owl-carousel img {
      max-width: 100%;
  }
+ 
 
  .partners-logo div img {
      max-width: 100% !important;
@@ -571,7 +567,8 @@ footer .footer-links a:hover {
  }
 
  .owl-carousel .owl-item img {
-    max-height: 55px;
+    max-height: 35px;
+    height: 35px;
     width: auto !important;
 }
 
